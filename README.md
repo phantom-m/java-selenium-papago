@@ -68,4 +68,4 @@ Translates all the files within a folder
 
 ### CHARACTERS
   - Optional, default = 5000
-  - Max number of characters to send at a time to papago.
+  - Max number of characters to send at a time to papago. Papago UI only accepts up to 5000. Putting more than that will only result in missing translations.
