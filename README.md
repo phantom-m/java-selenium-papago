@@ -1,6 +1,6 @@
 ## Pre-Requisites
   - Install Java (https://docs.oracle.com/goldengate/1212/gg-winux/GDRAD/java.htm#BGBFHBEA) and be able to run the java command in command line
-  - Download the subtitle.jar or compile the jar yourself by cloning the project to your local workspace
+  - Download the the jar file you want to use or compile the jar yourself by cloning the project to your local workspace
   - Download the chrome driver that matches your chrome version (https://chromedriver.chromium.org/downloads) and add it to your environment variable path
 
 # translate.jar
