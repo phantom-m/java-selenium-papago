@@ -77,7 +77,7 @@ public class BatchMain {
 			while((line = br.readLine()) != null) {
 				lineNum++;
 				if((inputText + line +"\n").length() > maxChar) {
-					System.out.println(lineNum + "/" + lineTotal);
+					System.out.println("Line: " + lineNum + "/" + lineTotal);
 					outputText = outputText + translate(inputText, wait);
 					inputText = "\n";
 				}
