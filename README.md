@@ -11,11 +11,11 @@
 
 ## Examples of valid commands:
 
->"C:\User\Documents\subtitle.vtt" "C:\User\Documents\subtitle-translated.vtt"
+>"java -Dfile.encoding=UTF-8 -jar C:\User\Documents\subtitle.vtt" "C:\User\Documents\subtitle-translated.vtt"
 
->"C:\User\Documents\subtitle.vtt" "C:\User\Documents\subtitle-translated.vtt" japanese english 15
+>"java -Dfile.encoding=UTF-8 -jar C:\User\Documents\subtitle.vtt" "C:\User\Documents\subtitle-translated.vtt" japanese english 15
 
->"C:\User\Documents\subtitle.vtt" "C:\User\Documents\subtitle-translated.vtt" korean japanese 1 50
+>"java -Dfile.encoding=UTF-8 -jar C:\User\Documents\subtitle.vtt" "C:\User\Documents\subtitle-translated.vtt" korean japanese 1 50
 
 
 ## Argument Description
