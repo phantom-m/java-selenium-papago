@@ -15,11 +15,11 @@ Translates the specified file. Has issues with special characters in the filenam
 
 ## Examples of valid commands:
 
->java -Dfile.encoding=UTF-8 -jar "C:\Programs\translate_batch.jar" "C:\User\Documents\subtitle.vtt" "C:\User\Documents\subtitle-translated.vtt"
+>java -Dfile.encoding=UTF-8 -jar "C:\Programs\translate.jar" "C:\User\Documents\subtitle.vtt" "C:\User\Documents\subtitle-translated.vtt"
 
->java -Dfile.encoding=UTF-8 -jar "C:\Programs\translate_batch.jar" "C:\User\Documents\subtitle.vtt" "C:\User\Documents\subtitle-translated.vtt" japanese english 15
+>java -Dfile.encoding=UTF-8 -jar "C:\Programs\translate.jar" "C:\User\Documents\subtitle.vtt" "C:\User\Documents\subtitle-translated.vtt" japanese english 15
 
->java -Dfile.encoding=UTF-8 -jar "C:\Programs\translate_batch.jar" "C:\User\Documents\subtitle.vtt" "C:\User\Documents\subtitle-translated.vtt" korean japanese 1 50
+>java -Dfile.encoding=UTF-8 -jar "C:\Programs\translate.jar" "C:\User\Documents\subtitle.vtt" "C:\User\Documents\subtitle-translated.vtt" korean japanese 1 50
 
 # translate_batch.jar
 
