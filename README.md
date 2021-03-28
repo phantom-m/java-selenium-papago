@@ -1,9 +1,13 @@
-# java-selenium-papago
-
 ## Pre-Requisites
   - Install Java (https://docs.oracle.com/goldengate/1212/gg-winux/GDRAD/java.htm#BGBFHBEA) and be able to run the java command in command line
   - Download the subtitle.jar or compile the jar yourself by cloning the project to your local workspace
   - Download the chrome driver that matches your chrome version (https://chromedriver.chromium.org/downloads) and add it to your environment variable path
+
+# translate.jar
+
+## Description
+
+Translates the specified file
 
 ## Command Line Command:
 
@@ -11,12 +15,29 @@
 
 ## Examples of valid commands:
 
->"java -Dfile.encoding=UTF-8 -jar C:\User\Documents\subtitle.vtt" "C:\User\Documents\subtitle-translated.vtt"
+>java -Dfile.encoding=UTF-8 -jar "C:\User\Documents\subtitle.vtt" "C:\User\Documents\subtitle-translated.vtt"
 
->"java -Dfile.encoding=UTF-8 -jar C:\User\Documents\subtitle.vtt" "C:\User\Documents\subtitle-translated.vtt" japanese english 15
+>java -Dfile.encoding=UTF-8 -jar "C:\User\Documents\subtitle.vtt" "C:\User\Documents\subtitle-translated.vtt" japanese english 15
 
->"java -Dfile.encoding=UTF-8 -jar C:\User\Documents\subtitle.vtt" "C:\User\Documents\subtitle-translated.vtt" korean japanese 1 50
+>java -Dfile.encoding=UTF-8 -jar "C:\User\Documents\subtitle.vtt" "C:\User\Documents\subtitle-translated.vtt" korean japanese 1 50
 
+# translate_batch.jar
+
+## Description
+
+Translates all the files within a folder
+
+## Command Line Command:
+
+>java -Dfile.encoding=UTF-8 -jar PATH_TO_SUBTITLE_FOLDER SOURCE_LANGUAGE TARGET_LANGUAGE WAIT_TIME CHARACTERS
+
+## Examples of valid commands:
+
+>java -Dfile.encoding=UTF-8 -jar "C:\User\Documents\subtitles_to_translate"
+
+>java -Dfile.encoding=UTF-8 -jar "C:\User\Documents\subtitles_to_translate" japanese english 15
+
+>java -Dfile.encoding=UTF-8 -jar "C:\User\Documents\subtitles_to_translate" korean japanese 1 50
 
 ## Argument Description
 
@@ -26,6 +47,9 @@
 
 ### PATH_TO_SUBTITLE_OUTPUT
   - Full file path to where you want to save the translated subtitle.
+
+### PATH_TO_SUBTITLE_FOLDER
+  - Full file path to the folder with the subtitles you want to translate
 
 
 ### SOURCE_LANGUAGE
