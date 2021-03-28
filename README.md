@@ -7,7 +7,7 @@
 
 ## Description
 
-Translates the specified file
+Translates the specified file. Has issues with special characters in the filename. In those cases, please use translate_batch.jar.
 
 ## Command Line Command:
 
