@@ -11,33 +11,33 @@ Translates the specified file. Has issues with special characters in the filenam
 
 ## Command Line Command:
 
->java -Dfile.encoding=UTF-8 -jar PATH_TO_SUBTITLE PATH_TO_SUBTITLE_OUTPUT SOURCE_LANGUAGE TARGET_LANGUAGE WAIT_TIME CHARACTERS
+>java -Dfile.encoding=UTF-8 -jar PATH_TO_JAR PATH_TO_SUBTITLE PATH_TO_SUBTITLE_OUTPUT SOURCE_LANGUAGE TARGET_LANGUAGE WAIT_TIME CHARACTERS
 
 ## Examples of valid commands:
 
->java -Dfile.encoding=UTF-8 -jar "C:\User\Documents\subtitle.vtt" "C:\User\Documents\subtitle-translated.vtt"
+>java -Dfile.encoding=UTF-8 -jar "C:\Programs\translate_batch.jar" "C:\User\Documents\subtitle.vtt" "C:\User\Documents\subtitle-translated.vtt"
 
->java -Dfile.encoding=UTF-8 -jar "C:\User\Documents\subtitle.vtt" "C:\User\Documents\subtitle-translated.vtt" japanese english 15
+>java -Dfile.encoding=UTF-8 -jar "C:\Programs\translate_batch.jar" "C:\User\Documents\subtitle.vtt" "C:\User\Documents\subtitle-translated.vtt" japanese english 15
 
->java -Dfile.encoding=UTF-8 -jar "C:\User\Documents\subtitle.vtt" "C:\User\Documents\subtitle-translated.vtt" korean japanese 1 50
+>java -Dfile.encoding=UTF-8 -jar "C:\Programs\translate_batch.jar" "C:\User\Documents\subtitle.vtt" "C:\User\Documents\subtitle-translated.vtt" korean japanese 1 50
 
 # translate_batch.jar
 
 ## Description
 
-Translates all the files within a folder
+Translates all the files within a folder. It will create a folder named "papago_output" inside your file source directory to put your translated files.
 
 ## Command Line Command:
 
->java -Dfile.encoding=UTF-8 -jar PATH_TO_SUBTITLE_FOLDER SOURCE_LANGUAGE TARGET_LANGUAGE WAIT_TIME CHARACTERS
+>java -Dfile.encoding=UTF-8 -jar PATH_TO_JAR PATH_TO_SUBTITLE_FOLDER SOURCE_LANGUAGE TARGET_LANGUAGE WAIT_TIME CHARACTERS
 
 ## Examples of valid commands:
 
->java -Dfile.encoding=UTF-8 -jar "C:\User\Documents\subtitles_to_translate"
+>java -Dfile.encoding=UTF-8 -jar "C:\Programs\translate_batch.jar" "C:\User\Documents\subtitles_to_translate"
 
->java -Dfile.encoding=UTF-8 -jar "C:\User\Documents\subtitles_to_translate" japanese english 15
+>java -Dfile.encoding=UTF-8 -jar "C:\Programs\translate_batch.jar" "C:\User\Documents\subtitles_to_translate" japanese english 15
 
->java -Dfile.encoding=UTF-8 -jar "C:\User\Documents\subtitles_to_translate" korean japanese 1 50
+>java -Dfile.encoding=UTF-8 -jar "C:\Programs\translate_batch.jar" "C:\User\Documents\subtitles_to_translate" korean japanese 1 50
 
 ## Argument Description
 
